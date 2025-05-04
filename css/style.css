@@ -5,6 +5,7 @@ float:left;
 
 
 }
+
 .cab{display:block;   background-color: #ff5622e2; padding:auto ;}
 h1{
    display: block;
@@ -17,6 +18,21 @@ h1{
    padding-bottom: 50px;
    color: rgb(99, 40, 0);
 }
+
+.par1{
+    display: flex;
+}
+.par{
+    
+    justify-content: baseline ;
+   padding: 10px;
+    width: 20em;
+}
+.txt{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h3{ font-size: 30px;}
 
 hr{ background-color: brown;}
 .c1{
@@ -57,7 +73,9 @@ body{
     height: 100vh;
     
 }
-
+a{color: rgb(0, 95, 13);
+    text-decoration: none;
+    font-size: 1.1rem;}
 .bar{
     display: none;
 }
@@ -100,7 +118,7 @@ a{
     text-align: center;
 }
 .boton_menu{
-   background-image: url(../img/menu.jpg);
+   background-image: url(../img/menu1.jpg);
    background-color: #1e1e1e;
    background-repeat: no-repeat;
    height: 30px;
@@ -181,4 +199,27 @@ padding-top: 0%;
     float:left;
     
     
- }}
+ }
+.proy h1{
+    justify-content: baseline;
+    font-size: 20px;
+}
+.par1{
+    display: flex;
+}
+.par{
+    
+    justify-content: baseline ;
+   padding: 10px;
+    width: 20em;
+}
+.txt{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.spe{
+    width: 200px;
+    height: 250;
+}
+h3{font-size: 15px;}
+}
